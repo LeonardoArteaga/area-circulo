@@ -1,0 +1,15 @@
+//*programa: area de circulo 
+   autor :   leonardo arteaga*//
+#include <stdafx.h>
+#include <stdlib.h>
+#include <stdio.h>
+void main()
+{float radio,area;
+  printf("\t\t area de un circulo\n");
+  printf("\t\t ==================\n\n");
+  printf("ingrese el radio del cirlulo\n");
+  scanf("%f",&radio);
+  area=3.14*(radio*radio);
+  printf("\n\n el area del circulo es %f\n",area);
+  system("pause");
+}
